@@ -354,31 +354,31 @@ a {
 
 /* #region portfolio */
 
-.portfolio {
+/* .portfolio {
   padding: 120px 0;
-}
+} */
 
-.portfolio-list {
+/* .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 48px;
-}
+  gap: 24px; */
+  /* row-gap: 48px;
+} */
 
-.portfolio-div {
+/* .portfolio-div {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
-}
+} */
 
-.portfolio-image {
+/* .portfolio-image {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-.div-overlay {
+/* .div-overlay {
   position: relative;
   overflow: hidden;
 }
@@ -408,9 +408,9 @@ a {
 
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.portfolio-title {
+/* .portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -418,9 +418,9 @@ a {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
-}
+} */
 
-.project-title {
+/* .project-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -435,32 +435,33 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
+} */
 
 /* #endregion */
 
 /* #region footer */
 
-.footer {
+/* .footer {
   padding: 120px 0;
-  background-color: #2e2f42;
-}
+   /* background-color: #2e2f42; */
+} */
 
-.footer-logo .logo-part {
+/* .footer-logo .logo-part {
   color: #f4f4fd;
 }
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-}
-.footer-text {
+}  */
+
+/* .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-}
+} */
 
 .logo-div {
   margin-right: 120px;
@@ -471,21 +472,21 @@ a {
 }
 
 .footer-container {
-  display: flex;
+  /* display: flex; */
   /* gap: 120px; */
   align-items: baseline;
 }
 
-.social-links-text {
+/* .social-links-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-}
+} */
 
-.social-links-footer {
+/* .social-links-footer {
   display: flex;
   gap: 16px;
 }
@@ -510,7 +511,7 @@ a {
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: #31d0aa;
-}
+} */
 
 .footer-form-title {
   font-weight: 500;
