@@ -57,12 +57,90 @@
         </button>
       </div>
 
-      <div class="mobile-menu" data-menu>
+      <div class="mobile-menu-backdrop" data-menu>
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close" data-menu-close>Close</button>
-          <nav class="mobile-menu-nav">Navigation</nav>
-          <address>Address</address>
-          <div>Soc link</div>
+          <button
+            class="mobile-menu-closed"
+            type="button"
+            width="24"
+            height="24"
+            data-menu-close
+          >
+            <svg class="mobile-svg-closed" width="8" height="8">
+              <use href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="list list-nav-mobile">
+              <li>
+                <a href="./index.html" class="link-nav-mobile active">Studio</a>
+              </li>
+              <li>
+                <a href="" class="link-nav-mobile">Portfolio</a>
+              </li>
+              <li><a href="" class="link-nav-mobile">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="adress-mob-menu">
+            <ul class="list list-address-mobile">
+              <li>
+                <a href="tel:+110001111111" class="link-address-mobile active">
+                  +11 (000) 111-11-11
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="link-address-mobile"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-links-footer">
+            <li class="social-item-footer">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                class="social-link-footer"
+              >
+                <svg class="social-icon-footer" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item-footer">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="social-link-footer"
+              >
+                <svg class="social-icon-footer" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item-footer">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                class="social-link-footer"
+              >
+                <svg class="social-icon-footer" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item-footer">
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                class="social-link-footer"
+              >
+                <svg class="social-icon-footer" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -690,12 +768,14 @@
             <label for="policy" class="policy_label">
               <span class="policy-span">
                 <svg class="policy-svg" width="10" height="8">
-                  <use
-                    href="./images/symbol-defs.svg#icon-vector"
-                  ></use></svg></span
-              >I accept the terms and conditions of the
-              <a href="#" class="policy_a"> Privacy Policy</a></label
-            >
+                  <use href="./images/symbol-defs.svg#icon-vector"></use>
+                </svg>
+              </span>
+              <span class="policy-text"
+                >I accept the terms and conditions of the
+                <a href="#" class="policy_a"> Privacy Policy</a>
+              </span>
+            </label>
           </div>
 
           <button class="modal-btn" type="submit">Send</button>
