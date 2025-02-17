@@ -1037,3 +1037,15 @@ border: 1px solid #4d5ae5;
 }
 
 /*  */
+
+
+
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    margin-right: 24px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    margin-bottom: 16px;

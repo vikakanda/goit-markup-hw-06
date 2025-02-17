@@ -285,12 +285,24 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/bg.jpg);
+    url(../images/bg/Dark-bg-mob-min.jpg);
+
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   min-width: 320px;
   background-attachment: fixed;
+}
+
+@media screen and (min-resolution: 2x) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg/Dark-bg-mob@2x-min.jpg);
+  }
 }
 
 .hero-title {
@@ -309,6 +321,12 @@ button {
   .hero {
     padding: 112px 0 112px;
     min-width: 768px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg/Dark-bg-tab-min.jpg);
   }
 
   .hero-title {
@@ -319,11 +337,40 @@ button {
   }
 }
 
+@media screen and (min-resolution: 2x) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg/Dark-bg-tab@2x-min.jpg);
+  }
+}
+
 @media screen and (min-width: 1156px) {
   .hero {
     padding: 188px 0 188px;
     min-width: 1156px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg/Dark-bg-dtop-min.jpg);
   }
+
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg/Dark-bg-dtop@2x-min.jpg);
+    }
+  }
+
   .hero-title {
     margin-bottom: 48px;
   }
@@ -476,7 +523,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -516,7 +563,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .social-links {
@@ -640,14 +687,12 @@ max-width: 288px;
   .portfolio-list {
     gap: 72px 24px;
   }
- 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .portfolio-item {
-  width: calc((100% - 24px) / 2);
-}
-   
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -791,10 +836,11 @@ max-width: 288px;
   width: 264px;
   height: 40px;
   background-color: transparent;
-  margin-right: 24px;
+  /* margin-right: 24px; */
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding-left: 16px;
   margin-bottom: 16px;
+  width: 100%;
 }
 
 .form-email {
@@ -857,6 +903,16 @@ max-width: 288px;
 
   .footer-form-title {
     text-align: left;
+  }
+  .form-email {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .footer-form-input {
+    min-width: 264px;
+    margin-bottom: 0;
   }
 
   .social-div {
@@ -991,7 +1047,7 @@ max-width: 288px;
   color: #434455;
 }
 
-.svg-mobile-list {
+.social-links-mob {
   display: flex;
   gap: 40px;
 }
@@ -1033,7 +1089,7 @@ max-width: 288px;
 
   transform: translate(-50%, -50%);
   width: 288px;
-  max-height: 623px;
+  /* max-height: 623px; */
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
